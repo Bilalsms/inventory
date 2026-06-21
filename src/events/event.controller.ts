@@ -41,23 +41,23 @@ export class EventController {
         topic: 'order/order/created',
         route: 'order-created',
       }, {
-        pubsubname: 'pubsub',
+        pubsubName: 'pubsub',
         topic: 'payment/payment/payment-enabled',
         route: 'payment-enabled'
       }, {
-        pubsubname: 'pubsub',
+        pubsubName: 'pubsub',
         topic: 'payment/payment/payment-failed',
         route: 'payment-failed'
       }, {
-        pubsubname: 'pubsub',
+        pubsubName: 'pubsub',
         topic: 'shipment/shipment/status-updated',
         route: 'shipment-status-updated'
       }, {
-        pubsubname: 'pubsub',
+        pubsubName: 'pubsub',
         topic: 'shipment/shipment/created',
         route: 'shipment-created'
       }, {
-        pubsubname: 'pubsub',
+        pubsubName: 'pubsub',
         topic: 'discount/order/validation-failed',
         route: 'discount-validation-failed'
       }
